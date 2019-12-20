@@ -1,0 +1,14 @@
+.root{
+grid-template-rows: "frParent"
+"autoParent";
+display:grid;
+}
+
+.frParent{
+  grid-area: frParent;
+
+}
+
+.autoParent{
+  grid-area: autoParent;
+}
